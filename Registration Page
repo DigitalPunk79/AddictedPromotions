@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <head>
+      <body>
+        <img src="/Users/apple/Dropbox/Artwork-Pack-copy/Artwork-Pack/Logo-Designs/COVERPIC.png" alt="addicted-promotions-logo">
+
+<h1 id="title">Addicted Promotions Registration Form</h1>
+    <p id="description"> Welcome to Addicted Promotions, please take a moment to fill in your details.</p>
+        <form id="survey-form">
+        
+          
+      <div class="survey-info">    
+      <fieldset>    
+          <label id="name-label">Name:<label/> <input id="name" type="text" placeholder="Enter Your Name" required></input>
+          <label id="email-label">Email Address: </label> <input id="email" type="email" placeholder="Enter Your Email Address" required></input>
+          <label id="number-label">Age: (optional) </label><input id="number" type="number" min="18" max="99" placeholder="Enter Your Age"></input>
+          </fieldset>
+          <fieldset>
+          
+               <label id="current-role-label">Which Option Best Describes Your Current Level As A DJ</label>
+          <select id="dropdown" name="current-role">
+            <option value="">(select one)<option>
+              <option value="1">Beginner/Just starting to learn</option>
+              <option value="2">Bedroom dj/making mixes/some djing experience</option>
+              <option value="3">Have played live gigs, no regular work</option>
+              <option value="4">Have regular gigs, once or twice a month</option>
+              <option value="5">Flat out djing, gigs every week</option>
+              <option value="6">Dj? Nope, i'm just here for the music, I'm a raver baby!</option>
+    </select>
+    </fieldset>
+    <fieldset>
+    Do You Produce Your Own Music?
+          
+        <label for="recommend-yes"><input value="1" for="yes" id="yes" type="radio" name="select" class="inline">Yes</input></label>
+
+           <label for="recommend-no"><input value="2" for="no" id="no" type="radio" name="select" class="inline">No</input>
+                      <label for="recommend-maybe"><input value="3" for="maybe" id="maybe" type="radio" name="select" class="inline">Would like to learn</input></label>
+           </fieldset>
+   <fieldset>   
+     
+       What DJ Hardware Do You Own/Play On?
+       <label for="Pioneer"><input type="checkbox" value="1">Pioneer</input></label>
+       <label for="Denon"><input type="checkbox" value="2">Denon</input>
+       <label for="Rane"><input type="checkbox" value="3">Rane</input></label>
+       <label for="Technics"><input type="checkbox" value="4">Technics</input>
+       <label for="Reloop"><input type="checkbox" value="5">Reloop</input></label>
+       <label for="Numark"><input type="checkbox" value="6">Numark</input>
+       <label for="Other"><input type="checkbox" value="7">Other</input>
+       </fieldset>
+       <fieldset>
+       What DJ Software Do You Use? 
+       <label for="Rekordbox-USB"><input type="checkbox" value="1">Rekordbox-USB</input></label>
+       <label for="Rekordbox-dj"><input type="checkbox" value="2">Rekordbox DJ</input>
+       <label for="Engine DJ"><input type="checkbox" value="3">Engine DJ</input></label>
+       <label for="Serato"><input type="checkbox" value="4">Serato</input>
+       <label for="Traktor"><input type="checkbox" value="5">Traktor</input></label>
+       <label for="Virtual DJ"><input type="checkbox" value="6">Virtual DJ</input>
+       <label for="CD"><input type="checkbox" value="7">Software? Na, CDs for me</input> 
+       <label for="No"><input type="checkbox" value="8">Software? Na, I'm old skool, vinyl only</input> 
+       <label for="Other"><input type="checkbox" value="9">Other</input> 
+           
+    
+
+       <fieldset>     
+           <label for="bio" class="info">Tell us a little about yourself....</label>
+<label><textarea placeholder="enter text here"></textarea></label>
+</fieldset>
+
+<fieldset>
+           <input id="submit" type="submit" class="info"></input>
+           </fieldset>
+           </div>
+           </form>
+    
+
+
+     
